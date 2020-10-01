@@ -715,6 +715,43 @@ input::placeholder {
 .c-option--hidden:hover + .c-custom-option {
     
 }
+
+/*
+    Component: toggle
+    ---
+    Class to put on all form labels
+*/
+.c-custom-toggle {
+    display: block;
+}
+
+.c-custom-toggle__fake-input {
+    padding: 4px 22px;
+    border: 1px solid var(--global-input-borderColor);
+    border-radius: 20px;
+    margin-right: 16px;
+}
+
+.c-custom-toggle__fake-input::after{
+    display: block;
+    content: '';
+    border-radius: 100%;
+    padding: 4px;
+    box-shadow: var(--global-input-boxShadow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
     Component: Label
     ---
